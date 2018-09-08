@@ -1,5 +1,20 @@
-- time: 8:00 AM - 12:00 PM
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+- time: 8:00 AM - 8:30 AM
+  info: "<br>Registration<br><br>"
 
-- time: 12:00 PM - 3:00 PM
-  info: "<u>Title</u><br><b>Name</b><br><i>Position</i><br><br>Topic"
+- time: 8:30 AM - 11:30 AM
+  info: "<br>Kickoff<br><br><i>Hands-on learning! Meet Go Lang and have fun!</i><br><br>"
+
+- time: 11:30 AM - 12:30 PM
+  info: "<br>Lunch<br><br>"
+
+- time: 12:30 PM - 1:00 PM
+  info: "<br>Keynote<br><br>"
+
+- time: 1:00 PM - 3:30 PM
+  info: "<br>Workshop<br><br>"
+
+- time: 3:30 PM - 3:45 PM
+  info: "<br>Tea Break<br><br>"
+
+- time: 3:45 PM - 6:00 PM
+  info: "<br>Workshop<br><br>"

@@ -7,7 +7,8 @@
 - inverted: timeline-inverted
   img: icon-agenda.jpeg
   name: Agenda
-  info: Coming soon
+  info: 8:00 AM to 6:00 PM
+  link:  "2018/agenda"
 
 - inverted:
   img: icon-venue.jpeg
