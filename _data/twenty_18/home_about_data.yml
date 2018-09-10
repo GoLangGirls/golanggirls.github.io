@@ -1,7 +1,7 @@
 - inverted: 
   img: icon-about.jpeg
   name: 1 Day Event For Girls To Learn Go
-  info: You will be learning GO from experts! 
+  info: You will be learning <a href='https://golang.org/' target='_blank'>GO</a> from experts!
   link: "/2018/about"
 
 - inverted: timeline-inverted
