@@ -8,7 +8,7 @@
   img: icon-agenda.jpeg
   name: Agenda
   info: 8:00 AM to 6:00 PM
-  link:  "2018/agenda"
+  link:  "/2018/agenda"
 
 - inverted:
   img: icon-venue.jpeg
