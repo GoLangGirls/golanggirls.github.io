@@ -284,6 +284,11 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
+.dropdown-default ul, .dropdown-default ul li a:hover, .dropdown-default ul li a:focus {
+    background-color: #{{ site.data.template.color.primary }};
+    color: #fff !important;
+}
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
