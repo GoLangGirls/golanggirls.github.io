@@ -11,12 +11,6 @@
   link:  "/2018/agenda"
 
 - inverted:
-  img: icon-venue.jpeg
-  name: Venue
-  info: Josh Software Private Limited
-  link: /2018/venue
-
-- inverted: timeline-inverted
   img: icon-faq.jpeg
   name: FAQs
   info: Have a Question? Many answers can be found right here in our FAQs
