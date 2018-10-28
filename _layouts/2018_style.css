@@ -1,3 +1,13 @@
 {% include 2018_css/bootstrap.min.css %}
 {% include 2018_css/agency.css %}
 {{ content }}
+
+.dropdown-menu {
+    background-color: #292c33;
+    border-radius: 0;
+    border: 1px solid #515763;
+}
+
+.dropdown-menu > li > a {
+    color: #fff
+}
