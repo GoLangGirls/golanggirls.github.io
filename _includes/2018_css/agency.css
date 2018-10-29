@@ -909,6 +909,14 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: gray;
+  opacity: 0.9;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.data.template.color.primary }};
