@@ -783,6 +783,37 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#sponser{
+    color: #3cb371;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#sponser .title{
+    margin-top: 2.2%;
+    font-size: 40px;
+    height: 100px;
+    text-align: right;
+}
+
+section#sponser .big-binary-logo{
+    background-color: #007bff;
+    padding: 0 10px;
+}
+
+section#sponser .text-center{
+    text-align: center;
+}
+
+section#sponser img{
+    height: 100px;
+    width: 200px;
+}
+
+section#sponser a{
+    padding: 10px;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
