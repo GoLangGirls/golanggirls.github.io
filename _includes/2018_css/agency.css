@@ -778,6 +778,7 @@ section#contact .text-danger {
 }
 
 section#sponser{
+    padding: 30px;
     color: #3cb371;
     background-position: center;
     background-repeat: no-repeat;
@@ -805,10 +806,11 @@ section#sponser img{
 }
 
 section#sponser a{
-    padding: 10px;
+    padding: 30px;
 }
 
 section#organizers{
+    padding: 50px;
     color: #3cb371;
     background-position: center;
     background-repeat: no-repeat;
@@ -832,6 +834,24 @@ section#organizers img{
 
 section#organizers table tr td{
     padding: 10px;
+}
+
+section#organizers table{
+    width: 100%;
+    margin: 0 10px;
+}
+
+section#venue{
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#venue img{
+    color: #3cb371;
+    height: 50px;
+    width: 50px;
 }
 
 footer {
