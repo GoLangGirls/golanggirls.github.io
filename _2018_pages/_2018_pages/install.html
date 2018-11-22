@@ -1,0 +1,69 @@
+---
+layout: 2018_default
+permalink: /2018/install
+title: Installation
+---
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div class="event black-frame">
+        <h1>Installation Guide</h1>
+        <ol>
+            <ul>
+                <li><h3>Ubuntu Installation</h3></li>
+                    <ul>
+                        <li>By the universal app store for Linux<br><br>
+                            <pre>#This will give you the latest version of go<br>sudo snap install go --classic</pre>
+                        </li>
+                        <li>Step 1: Installing Go<br><br>
+                            <pre>sudo apt-get update<br>sudo apt-get -y upgrade<br><br>curl -O https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz<br><br>tar -xvf go1.11.2.linux-amd64.tar.gz<br>sudo mv go /usr/local</pre>
+                        </li>
+                        <li>Step 2: Setting Go Paths<br><br>
+                            First, set Go’s root value, which tells Go where to look for its files.<br>
+                            <pre>sudo nano ~/.profile</pre>
+                            At the end of the file, add these lines: (Make sure you have work directory in your $HOME path)
+                            <pre>export GOPATH=$HOME/work<br>export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin</pre>
+                            With the appropriate line pasted into your profile, save and close the file. Next, refresh your profile by running:
+                            <pre>source ~/.profile</pre>
+                        </li>
+                        <li>For more details follow this <a href="https://medium.com/@patdhlk/how-to-install-go-1-9-1-on-ubuntu-16-04-ee64c073cd79" target="_blank">link.</a></li>
+                    </ul>
+                <li><h3>Windows Installation</h3></li>
+                    <ul>
+                        <li>
+                            <a href="https://golang.org/dl/" target="_blank">Download</a>
+                            the zip file and extract it into the directory of your choice . By default Go will get installed in C:\Go directory but we'll use C:\work in this example.                         
+                        </li>
+                        <li>
+                            Set GOPATH env variable according to your workspace as follow.
+                            <pre>NOTE: GOPATH must not be the same path as your Go installation.</pre>
+                            Create folder at C:\go-work.<br>
+                            Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".<br>
+                            From the menu on the left, select the "Advanced systems settings".<br>
+                            Click the "Environment Variables" button at the bottom.<br>
+                            Click "New" from the "User variables" section.<br>
+                            Type GOPATH into the "Variable name" field.<br>
+                            Type C:\go-work into the "Variable value" field.<br>
+                            Click OK.
+                        </li>
+                        <li>For more information follow this <a href="https://golang.org/doc/install#windows">link</a></li>
+                    </ul>
+                </li>
+                <li><h3>Mac Installation</h3>
+                    <ul>
+                        <li>
+                            <a href="https://golang.org/dl/" target="_blank">Download</a>
+                            the package file, open it, and follow the prompts to install the Go tools. The package installs the Go distribution to /usr/local/go.                         
+                        </li>
+                        <li>
+                            The package should put the /usr/local/go/bin directory in your PATH environment variable. You may need to restart any open Terminal sessions for the change to take effect.
+                        </li>
+                        <li>For more information follow this <a href="https://golang.org/doc/install#macos">link</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </ol>
+
+    </div>
