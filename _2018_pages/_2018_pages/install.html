@@ -60,7 +60,24 @@ title: Installation
                         <li>
                             The package should put the /usr/local/go/bin directory in your PATH environment variable. You may need to restart any open Terminal sessions for the change to take effect.
                         </li>
-                        <li>For more information follow this <a href="https://golang.org/doc/install#macos">link</a></li>
+                        <li>For more information follow this <a href="https://golang.org/doc/install#macos">link</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul><br>
+            <ul>
+                <li>
+                    We are building gochat application in workshop. You can get the application on your laptop by two ways:
+                    <ul>
+                        <li>
+                            Pen drive / local network:
+                                <pre>Find you GOPATH using command<br>> echo $GOPATH<br><br>Create below directory structure in your $GOPATH directory<br>> src/github.com/gautamrege<br><br>Copy "gochat" folder to $GOPATH/src/github.com/gautamrege directory</pre>
+                            <br>Or <br><br>
+                        </li>
+                        <li>
+                            If you are aware with <a href="https://github.com/">Github</a>, then follow this way:
+                            <pre>Find you GOPATH using command<br>> echo $GOPATH<br><br>Create below directory structure in your $GOPATH directory<br>> src/github.com/gautamrege<br><br>Change current directory to $GOPATH/src/github.com/gautamrege<br>> Git clone from <a href="https://github.com/gautamrege/gochat">repository</a><br><br>Run below commands for downloading project dependencies<br>> cd gochat<br>> go get</pre>
+                        </li>
                     </ul>
                 </li>
             </ul>
