@@ -22,11 +22,11 @@ title: Installation
                         </li>
                         <li>Step 2: Setting Go Paths<br><br>
                             First, set Go’s root value, which tells Go where to look for its files.<br>
-                            <pre>sudo nano ~/.profile</pre>
+                            <pre>sudo nano ~/.bashrc</pre>
                             At the end of the file, add these lines: (Make sure you have work directory in your $HOME path)
                             <pre>export GOPATH=$HOME/work<br>export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin</pre>
-                            With the appropriate line pasted into your profile, save and close the file. Next, refresh your profile by running:
-                            <pre>source ~/.profile</pre>
+                            With the appropriate line pasted into your bashrc, save and close the file. Next, refresh your bashrc by running:
+                            <pre>source ~/.bashrc</pre>
                         </li>
                         <li>For more details follow this <a href="https://medium.com/@patdhlk/how-to-install-go-1-9-1-on-ubuntu-16-04-ee64c073cd79" target="_blank">link.</a></li>
                     </ul>
@@ -39,14 +39,14 @@ title: Installation
                         <li>
                             Set GOPATH env variable according to your workspace as follow.
                             <pre>NOTE: GOPATH must not be the same path as your Go installation.</pre>
-                            Create folder at C:\go-work.<br>
-                            Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".<br>
-                            From the menu on the left, select the "Advanced systems settings".<br>
-                            Click the "Environment Variables" button at the bottom.<br>
-                            Click "New" from the "User variables" section.<br>
-                            Type GOPATH into the "Variable name" field.<br>
-                            Type C:\go-work into the "Variable value" field.<br>
-                            Click OK.
+                            > Create folder at C:\go-work.<br>
+                            > Right click on "Start" and click on "Control Panel". Select "System and Security", then click on "System".<br>
+                            > From the menu on the left, select the "Advanced systems settings".<br>
+                            > Click the "Environment Variables" button at the bottom.<br>
+                            > Click "New" from the "User variables" section.<br>
+                            > Type GOPATH into the "Variable name" field.<br>
+                            > Type C:\go-work into the "Variable value" field.<br>
+                            > Click OK.
                         </li>
                         <li>For more information follow this <a href="https://golang.org/doc/install#windows">link</a></li>
                     </ul>
@@ -66,17 +66,17 @@ title: Installation
                 </li>
             </ul><br>
             <ul>
-                <li>
+                <li><h3>Chat Application Installation</h3>
                     We are building gochat application in workshop. You can get the application on your laptop by two ways:
                     <ul>
                         <li>
-                            Pen drive / local network:
-                                <pre>Find you GOPATH using command<br>> echo $GOPATH<br><br>Create below directory structure in your $GOPATH directory<br>> src/github.com/gautamrege<br><br>Copy "gochat" folder to $GOPATH/src/github.com/gautamrege directory</pre>
-                            <br>Or <br><br>
-                        </li>
-                        <li>
                             If you are aware with <a href="https://github.com/">Github</a>, then follow this way:
                             <pre>Find you GOPATH using command<br>> echo $GOPATH<br><br>Create below directory structure in your $GOPATH directory<br>> src/github.com/gautamrege<br><br>Change current directory to $GOPATH/src/github.com/gautamrege<br>> Git clone from <a href="https://github.com/gautamrege/gochat">repository</a><br><br>Run below commands for downloading project dependencies<br>> cd gochat<br>> go get</pre>
+                            <br><b>OR</b><br><br>
+                        </li>
+                        <li>
+                            Pen drive / local network: (You will get chat application folder in the workshop)
+                                <pre>Find you GOPATH using command<br>> echo $GOPATH<br><br>Create below directory structure in your $GOPATH directory<br>> src/github.com/gautamrege<br><br>Copy "gochat" folder to $GOPATH/src/github.com/gautamrege directory</pre>
                         </li>
                     </ul>
                 </li>
