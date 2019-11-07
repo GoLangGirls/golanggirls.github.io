@@ -14,21 +14,19 @@ title: Installation
             <ul>
                 <li><h3>Ubuntu Installation</h3></li>
                     <ul>
-                        <li>By the universal app store for Linux<br><br>
-                            <pre>#This will give you the latest version of go<br>sudo snap install go --classic</pre>
-                        </li>
+                
                         <li>Step 1: Installing Go<br><br>
-                            <pre>sudo apt-get update<br>sudo apt-get -y upgrade<br><br>curl -O https://storage.googleapis.com/golang/go1.11.2.linux-amd64.tar.gz<br><br>tar -xvf go1.11.2.linux-amd64.tar.gz<br>sudo mv go /usr/local</pre>
+                            <pre>sudo apt-get update<br>sudo apt-get -y upgrade<br><br>wget https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz<br><br>sudo tar -xvf go1.13.3.linux-amd64.tar.gz<br>sudo mv go /usr/local</pre>
                         </li>
                         <li>Step 2: Setting Go Paths<br><br>
                             First, set Go’s root value, which tells Go where to look for its files.<br>
-                            <pre>sudo nano ~/.bashrc</pre>
-                            At the end of the file, add these lines: (Make sure you have work directory in your $HOME path)
-                            <pre>export GOPATH=$HOME/work<br>export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin</pre>
+                            <pre>sudo nano ~/.profile</pre>
+                            At the end of the file, add these lines:
+                            <pre>export GOROOT=/usr/local/go<br>export PATH=$GOROOT/bin:$PATH</pre>
                             With the appropriate line pasted into your bashrc, save and close the file. Next, refresh your bashrc by running:
-                            <pre>source ~/.bashrc</pre>
+                            <pre>source ~/.profile</pre>
                         </li>
-                        <li>For more details follow this <a href="https://medium.com/@patdhlk/how-to-install-go-1-9-1-on-ubuntu-16-04-ee64c073cd79" target="_blank">link.</a></li>
+                        <li>For more details follow this <a href="https://tecadmin.net/install-go-on-ubuntu/" target="_blank">link.</a></li>
                     </ul>
                 <li><h3>Windows Installation</h3></li>
                     <ul>
