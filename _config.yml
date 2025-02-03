@@ -11,7 +11,7 @@ facebook:
 
 logo: "../css/2018_style/img/icon-large.png"
 
-include: ['_2018_pages', '_2018_pages','_2019_pages', '_2019_pages']
+include: ['_2018_pages', '_2018_pages','_2019_pages', '_2019_pages', '_2025_pages', '_2025_pages']
 
 plugins:
   - jekyll-sitemap
